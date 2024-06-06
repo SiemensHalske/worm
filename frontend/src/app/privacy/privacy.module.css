@@ -1,0 +1,33 @@
+.pageContainer {
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.pageContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.subHeader {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.customList ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.customList li {
+  margin-bottom: 10px;
+}

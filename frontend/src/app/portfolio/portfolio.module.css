@@ -1,0 +1,67 @@
+.pageContainer {
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.heroContainer {
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url("/bg-image.webp");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroTitle {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Ensure separation from subtitle */
+}
+
+.heroSubtitle {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.pageContent {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center; /* Ensure content is centered */
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Ensure grid items are centered */
+}
+
+.card {
+  max-width: 345px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cardMedia {
+  width: 100%;
+  height: 200px;
+  object-fit: contain; /* Ensure SVGs are fully visible */
+  padding: 10px;
+}
+
+.cardContent {
+  flex-grow: 1;
+}

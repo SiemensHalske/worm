@@ -1,0 +1,79 @@
+.pageContainer {
+  padding: 20px;
+}
+
+.heroContainer {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.heroImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.heroText {
+  text-align: center;
+  color: white;
+}
+
+.heroTitle,
+.heroSubtitle {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  width: 100%; /* Füge dies hinzu */
+  max-width: 80%; /* Füge dies hinzu */
+  margin-left: auto; /* Füge dies hinzu */
+  margin-right: auto; /* Füge dies hinzu */
+}
+
+.contactGrid {
+  margin-bottom: 20px;
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Füge dies hinzu */
+}
+
+.icon {
+  font-size: 3rem;
+  color: #1e88e5;
+  margin-bottom: 10px;
+}
+
+.contactForm {
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.submitButton {
+  margin-top: 20px;
+  background-color: #1e88e5;
+  color: #ffffff;
+}
+
+.submitButton:hover {
+  background-color: #1565c0;
+}

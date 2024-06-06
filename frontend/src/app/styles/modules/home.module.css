@@ -1,0 +1,45 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('/bg-image2.webp');
+}
+
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px; /* Höhe des Hero Containers */
+}
+
+.pageContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuresContainer {
+  margin-top: 4rem;
+}
+
+.featureBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.featureBox:hover {
+  transform: scale(1.05);
+}
+
+.featureBox img {
+  margin-bottom: 1rem;
+}

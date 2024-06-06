@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.themeToggle {
+  display: flex;
+  align-items: center;
+}
+
+.menuButton {
+  display: block;
+}
+
+.drawer {
+  & .MuiDrawer-paper {
+    width: 550px !important;
+  }
+}
+
+.navLink {
+  color: #f5f5dc; /* Hellbeige */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #8b4513; /* Warmes Braun */
+}

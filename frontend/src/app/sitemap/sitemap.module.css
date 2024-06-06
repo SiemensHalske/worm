@@ -1,0 +1,24 @@
+.pageContainer {
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.pageContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.link {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: var(
+    --primary-color-dark
+  ); /* Füge eine dunklere Farbe hinzu, falls definiert */
+  text-decoration: underline;
+}
